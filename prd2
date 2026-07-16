@@ -1,0 +1,317 @@
+# Prompt Website Portofolio Siswa RPL
+
+Buatkan website portofolio modern, premium, elegan, profesional, dan responsif untuk siswa SMK jurusan Rekayasa Perangkat Lunak (RPL).
+
+## Teknologi
+
+Gunakan:
+
+* HTML5
+* CSS3
+* JavaScript murni (Vanilla JavaScript)
+* Font Awesome
+* Google Fonts (Poppins)
+
+Jangan menggunakan Bootstrap atau framework CSS lainnya. Gunakan Flexbox dan CSS Grid agar struktur rapi dan mudah dikembangkan.
+
+---
+
+## Tema Desain
+
+Buat desain yang terlihat modern seperti website portofolio profesional tahun 2026.
+
+Gunakan konsep:
+
+* Minimalis
+* Clean UI
+* Premium
+* Elegant
+* Professional
+* Modern Glassmorphism
+
+Warna utama:
+
+* Hijau Sage
+* Hijau Mint
+* Emerald Soft
+* Putih
+* Abu-abu muda
+* Sedikit aksen hijau tua
+
+Background menggunakan perpaduan warna hijau soft dengan gradient yang lembut serta pola abstrak yang elegan.
+
+Card menggunakan efek:
+
+* Glassmorphism
+* Blur
+* Border transparan
+* Shadow lembut
+* Border radius modern
+
+Gunakan icon modern dari Font Awesome.
+
+Tambahkan animasi hover yang elegan pada tombol, card, dan menu navigasi.
+
+---
+
+## Dark Mode & Light Mode
+
+Website harus memiliki dua mode:
+
+☀️ Light Mode
+
+🌙 Dark Mode
+
+Fitur:
+
+* Tombol switch di navbar.
+* Menggunakan icon matahari dan bulan.
+* Mode tersimpan menggunakan localStorage sehingga ketika website dibuka kembali mode tetap sama.
+* Semua warna berubah secara otomatis sesuai mode.
+* Perubahan mode menggunakan animasi yang halus.
+
+---
+
+## Navbar
+
+Menu navigasi:
+
+* Home
+* Tentang
+* Keahlian
+* Proyek
+* Kontak
+
+Navbar harus:
+
+* Sticky / Fixed di bagian atas halaman.
+* Tetap terlihat ketika pengguna scroll ke bawah.
+* Menggunakan efek glassmorphism.
+* Background transparan saat di bagian atas.
+* Saat discroll berubah menjadi sedikit solid dengan blur dan shadow lembut.
+* Memiliki animasi transisi yang halus.
+* Menu aktif memiliki indikator garis bawah atau warna hijau.
+* Menggunakan Smooth Scroll.
+* Memiliki Scroll Spy (menu aktif mengikuti section yang sedang dilihat).
+* Responsive.
+* Pada tampilan mobile menggunakan Hamburger Menu.
+* Memiliki z-index tinggi agar selalu berada di atas semua elemen.
+
+---
+
+## Interaktivitas Website
+
+Jangan hanya membuat tampilan (UI), tetapi buat seluruh website berfungsi (fully interactive).
+
+### Home
+
+* Tombol **Lihat Proyek** ketika diklik akan melakukan smooth scroll ke section Proyek.
+* Tombol **Hubungi Saya** ketika diklik akan melakukan smooth scroll ke section Kontak.
+* Tambahkan animasi hero saat website pertama kali dibuka.
+* Efek mengetik (typing effect) pada teks profesi atau deskripsi singkat.
+* Foto profil memiliki efek hover yang elegan.
+
+### Tentang
+
+* Semua informasi dapat diedit dengan mudah melalui HTML.
+* Tambahkan timeline pendidikan atau perjalanan belajar.
+* Card informasi memiliki efek hover.
+* Tambahkan tombol **Download CV** yang dapat mengunduh file PDF ketika diklik.
+
+### Keahlian
+
+* Setiap skill ditampilkan dalam card interaktif.
+* Progress bar memiliki animasi saat section terlihat.
+* Saat cursor diarahkan ke card, tampilkan efek glow dan sedikit membesar.
+* Persentase skill tampil secara animasi.
+
+### Proyek
+
+Section ini harus benar-benar interaktif.
+
+Setiap proyek memiliki:
+
+* Gambar proyek.
+* Nama proyek.
+* Deskripsi.
+* Teknologi yang digunakan.
+* Status proyek.
+* Badge kategori.
+* Tombol **Lihat Detail**.
+* Tombol **Demo**.
+* Tombol **GitHub**.
+
+Saat tombol **Lihat Detail** diklik:
+
+* Muncul modal/popup berisi informasi lengkap proyek.
+* Terdapat galeri beberapa gambar proyek.
+* Deskripsi lengkap.
+* Fitur-fitur aplikasi.
+* Teknologi yang digunakan.
+* Tantangan selama membuat proyek.
+* Solusi yang diterapkan.
+* Tombol Tutup.
+
+Saat tombol **Demo** diklik:
+
+* Membuka halaman demo atau menampilkan pesan bahwa demo akan segera tersedia jika belum ada.
+
+Saat tombol **GitHub** diklik:
+
+* Membuka repository GitHub pada tab baru.
+
+Tambahkan fitur filter proyek berdasarkan kategori, misalnya:
+
+* Semua
+* Website
+* UI/UX
+* JavaScript
+* Sekolah
+
+### Kontak
+
+Form kontak harus berfungsi dan dapat diisi.
+
+Field:
+
+* Nama
+* Email
+* Subjek
+* Pesan
+
+Tambahkan validasi:
+
+* Semua field wajib diisi.
+* Format email harus valid.
+* Tampilkan pesan kesalahan jika ada input yang salah.
+
+Saat tombol **Kirim Pesan** diklik:
+
+* Tampilkan animasi loading.
+* Jika berhasil, tampilkan notifikasi sukses.
+* Reset form setelah berhasil dikirim.
+
+Tambahkan tombol sosial media:
+
+* Instagram
+* GitHub
+* LinkedIn (opsional)
+* Email
+
+Setiap ikon harus dapat diklik dan membuka tautan yang sesuai.
+
+### Navigasi
+
+Semua menu navigasi harus berfungsi:
+
+* Home
+* Tentang
+* Keahlian
+* Proyek
+* Kontak
+
+Saat diklik:
+
+* Menggunakan smooth scrolling.
+* Menu aktif berubah otomatis sesuai section yang sedang dilihat (Scroll Spy).
+
+### Fitur Tambahan
+
+* Dark Mode & Light Mode berfungsi sempurna.
+* Navbar tetap terlihat saat scroll (Sticky Navbar).
+* Tombol Back to Top berfungsi.
+* Loading screen saat website pertama dibuka.
+* Website responsif di desktop, tablet, dan smartphone.
+* Seluruh tombol, link, ikon, card, dan menu memiliki efek hover serta animasi yang halus.
+* Semua fitur harus siap digunakan, bukan hanya desain statis atau placeholder.
+
+## Footer
+
+Footer berisi:
+
+* Copyright
+* Sosial Media
+* Navigasi singkat
+
+Tambahkan tombol Back To Top yang muncul ketika pengguna sudah scroll sekitar 300px.
+
+---
+
+## Animasi
+
+Gunakan animasi modern.
+
+Semua section muncul menggunakan efek:
+
+* Fade Up
+* Fade In
+* Slide
+
+Saat card di-hover:
+
+* Sedikit membesar
+* Shadow bertambah
+* Warna berubah lebih hidup
+
+Saat tombol di-hover:
+
+* Glow hijau
+* Scale sedikit
+
+Gunakan animasi yang halus dan tidak berlebihan.
+
+---
+
+## Responsive
+
+Website harus tampil sempurna pada:
+
+* Desktop
+* Laptop
+* Tablet
+* Smartphone
+
+---
+
+## Struktur Folder
+
+```
+portfolio/
+│
+├── index.html
+│
+├── css/
+│     style.css
+│
+├── js/
+│     script.js
+│
+├── assets/
+│     ├── images/
+│     └── icons/
+│
+└── README.md
+```
+
+---
+
+## Kualitas Kode
+
+Pastikan:
+
+* Kode rapi.
+* Mudah dibaca.
+* Setiap bagian diberi komentar.
+* Menggunakan HTML semantik.
+* CSS terorganisir.
+* JavaScript dipisahkan dari HTML.
+* Mudah dikembangkan.
+* Optimasi performa.
+* SEO dasar.
+* Aksesibilitas dasar.
+
+---
+
+## Hasil Akhir
+
+Saya ingin website yang terlihat seperti portofolio profesional seorang Front-End Developer modern, dengan nuansa hijau soft yang elegan, pengalaman pengguna (UX) yang nyaman, animasi yang halus, tampilan premium, serta siap diunggah ke GitHub dan Netlify. Buat desain yang unik, tidak pasaran, dan menarik perhatian guru, pembimbing PKL, maupun HR saat melihat portofolio saya.
